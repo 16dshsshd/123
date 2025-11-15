@@ -79,7 +79,7 @@ local function onPvpSelected()
 
     -- Ejecutar script en segundo plano
     task.spawn(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/16dshsshd/123/refs/heads/main/%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B82.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/16dshsshd/123/refs/heads/main/1231.txt"))()
     end)
 end
 
@@ -95,7 +95,7 @@ local function onPveSelected()
 
     -- Ejecutar script en segundo plano
     task.spawn(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/16dshsshd/123/refs/heads/main/%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B82.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/16dshsshd/123/refs/heads/main/1231.txt"))()
     end)
 end
 
@@ -103,4 +103,5 @@ end
 pvpButton.MouseButton1Click:Connect(onPvpSelected)
 
 pveButton.MouseButton1Click:Connect(onPveSelected)
+
 
