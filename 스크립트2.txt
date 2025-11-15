@@ -10,7 +10,7 @@ local camera = Workspace.CurrentCamera                      -- Reference to the 
 
 -- Constants
 local RAYCAST_COOLDOWN = 0.15                               -- Minimum time between raycasts
-local TARGET_HITBOX_SIZE = Vector3.new(20, 20, 20)          -- Size used for "silent hitbox"
+local TARGET_HITBOX_SIZE = Vector3.new(15, 15, 15)          -- Size used for "silent hitbox"
 
 -- Data tables
 local activeNPCs = {}        -- Tracks currently active NPCs
@@ -353,6 +353,7 @@ table.insert(wallConnections, inputConn)
 
 
 print("[BRM5 v6] Script loaded and optimized with modified CanCollide.")
+
 
 
 
